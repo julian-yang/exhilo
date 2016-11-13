@@ -672,8 +672,8 @@ bounce
 	animation-name: bounce;
 	-webkit-animation-name: bounce;	
 
-	animation-duration: 1.6s;	
-	-webkit-animation-duration: 1.6s;
+	animation-duration: .6s;	
+	-webkit-animation-duration: .6s;
 
 	animation-timing-function: ease;	
 	-webkit-animation-timing-function: ease;	
@@ -688,7 +688,7 @@ bounce
 		transform: translateY(0%) scaleY(0.6);
 	}
 	60%{
-		transform: translateY(-100%) scaleY(1.1);
+		transform: translateY(-40%) scaleY(1.1);
 	}
 	70%{
 		transform: translateY(0%) scaleY(0.95) scaleX(1.05);
@@ -709,7 +709,7 @@ bounce
 		-webkit-transform: translateY(0%) scaleY(0.6);
 	}
 	60%{
-		-webkit-transform: translateY(-100%) scaleY(1.1);
+		-webkit-transform: translateY(-40%) scaleY(1.1);
 	}
 	70%{
 		-webkit-transform: translateY(0%) scaleY(0.95) scaleX(1.05);
