@@ -3,6 +3,8 @@ $(document).ready(function() {
     $('#block-efb1dda1a2fa68cb2bd7').addClass('bounce');
 });
 */
+var ANIMATION = 'fadeIn'; 
+var ANIMATE_ONCE = true;
 
 $(window).scroll(function () {
   var bookIcon = '#block-efb1dda1a2fa68cb2bd7';
@@ -13,14 +15,12 @@ $(window).scroll(function () {
     var topOfWindow = $(window).scrollTop(),
         bottomOfWindow = topOfWindow + $(window).height();
 
-    var animation = 'fadeIn';
-
     var imagePos = $(this).offset().top;
 
     if(imagePos <= bottomOfWindow-100 && imagePos >= topOfWindow-250){
-      $(this).addClass(animation);
-    } else {
-      $(this).removeClass(animation);
+      $(this).addClass(ANIMATION);
+    } else if(!ANIMATE_ONCE) {
+      $(this).removeClass(ANIMATION);
     }
   });
 });
