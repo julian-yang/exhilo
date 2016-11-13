@@ -13,7 +13,7 @@ $(window).scroll(function () {
     var topOfWindow = $(window).scrollTop(),
         bottomOfWindow = topOfWindow + $(window).height();
 
-    var animation = 'bounce';
+    var animation = 'fadeIn';
 
     var imagePos = $(this).offset().top;
 
