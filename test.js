@@ -1,8 +1,4 @@
-/*
-$(document).ready(function() {
-    $('#block-efb1dda1a2fa68cb2bd7').addClass('bounce');
-});
-*/
+
 var ANIMATION = 'fadeIn'; 
 var ANIMATE_ONCE = true;
 
